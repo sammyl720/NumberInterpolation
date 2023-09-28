@@ -20,5 +20,7 @@
 	<PackageReadmeFile>README.md</PackageReadmeFile>
 	<RepositoryUrl>https://github.com/sammyl720/NumberInterpolation</RepositoryUrl>
   </PropertyGroup>
-
+  <ItemGroup>
+	<None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 </Project>

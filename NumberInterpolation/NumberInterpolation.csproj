@@ -4,6 +4,21 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>NumberInterpolation</PackageId>
+	<Version>1.0.0</Version>
+	<Authors>Shmuel Leider</Authors>
+	<Company>Sammyl720</Company>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<Description>
+		The NumberInterpolation library is a versatile toolkit for working with numeric ranges in .NET applications.
+		It provides a robust set of features for tasks like calculating values based on percentages, clamping numbers within a
+		range, and interpolating between different numeric ranges. Designed with a focus on performance and ease-of-use, this
+		library is ideal for developers who need to perform complex numerical operations without the hassle. Whether you're
+		building data visualization tools, games, or scientific simulations, NumberInterpolation offers a streamlined API to
+		make your development process smoother.
+	</Description>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<RepositoryUrl>https://github.com/sammyl720/NumberInterpolation</RepositoryUrl>
   </PropertyGroup>
 
 </Project>

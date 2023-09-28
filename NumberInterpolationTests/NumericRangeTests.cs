@@ -24,6 +24,7 @@ public class NumericRangeTests
     [TestCase(0, 100, 0, 0)]
     [TestCase(0, 100, 1, 100)]
     [TestCase(425, 935, 0.38, 618.8)]
+    [TestCase(50, 100, 0.5, 75)]
     public void GetPercentageValue_ShouldReturnCorrectValue(decimal min, decimal max, decimal percentage, decimal expected)
     {
         var range = new DecimalRange(min, max);
